@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	background-color: #a9abad;
+}
+.close {
+	position: absolute;
+	right: 0;
+}
+ul li {
+	font-family: monospace;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	list-style: none;
+}
+.addButton {
+	background-color: #eaebed;
+	color: black;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border-style: none;
+}
+.addButton:hover {
+	background-color: #4a4b4c;
+	color: yellow;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	border-style: none;
+}
+span {
+	font-size: 20px;
+}

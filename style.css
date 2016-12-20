@@ -26,6 +26,9 @@ ul li:hover {
 	color: black;
 	font-weight: bolder;
 }
+ul:checked + li {
+	text-decoration: line-through;
+}
 .addButton {
 	background-color: #eaebed;
 	color: black;

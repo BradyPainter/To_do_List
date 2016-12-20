@@ -2,6 +2,7 @@ body {
 	text-align: center;
 	background-color: #a9abad;
 	font-family: monospace;
+	margin: auto 0;
 }
 h1 {
 	font-size: 50px;
@@ -44,6 +45,12 @@ ul li:hover {
 	padding-right: 10px;
 	border-radius: 5px;
 	border-style: none;
+}
+.textbox {
+	border-radius: 5px;
+	padding: 3px;
+	border-style: none;
+	width: 175px;
 }
 span {
 	font-size: 20px;

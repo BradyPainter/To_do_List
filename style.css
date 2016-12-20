@@ -1,6 +1,10 @@
 body {
 	text-align: center;
 	background-color: #a9abad;
+	font-family: monospace;
+}
+h1 {
+	font-size: 50px;
 }
 .close {
 	position: absolute;
@@ -14,6 +18,11 @@ ul li {
 	list-style: none;
 	width: 50%;
 }
+ul li:hover {
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+}
 .addButton {
 	background-color: #eaebed;
 	color: black;
@@ -26,7 +35,7 @@ ul li {
 }
 .addButton:hover {
 	background-color: #4a4b4c;
-	color: yellow;
+	color: white;
 	padding-top: 3px;
 	padding-bottom: 3px;
 	padding-left: 10px;

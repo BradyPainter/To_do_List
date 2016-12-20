@@ -17,6 +17,8 @@ ul li {
 	font-size: 16px;
 	list-style: none;
 	width: 50%;
+	margin: 5px;
+	padding: 5px;
 }
 ul li:hover {
 	background-color: white;
